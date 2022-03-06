@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=ADC? NewDesignator=ADC
+Change Component Designator: OldDesignator=I/O? NewDesignator=I/O
+Change Class Name : Old Net Name=N000-1_[0..23] New Net Name=N000-1_[0..24]
+Added Room: Name=borneras
+Added Room: Name=esquematico
+Added Room: Name=source

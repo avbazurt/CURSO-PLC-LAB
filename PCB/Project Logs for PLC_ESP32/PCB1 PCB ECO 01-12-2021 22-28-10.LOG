@@ -1,0 +1,6 @@
+Removed Member From Class: ClassName=N000-2_[32..39] Member=A34
+Change Net Name : Old Net Name=A34 New Net Name=A37
+Added Member To Class: ClassName=N000-2_[32..39] Member=Element[-1]: 
+Added Room: Name=borneras
+Added Room: Name=esquematico
+Added Room: Name=source

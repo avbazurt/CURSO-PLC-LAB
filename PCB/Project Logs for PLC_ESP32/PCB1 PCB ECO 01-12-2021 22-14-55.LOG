@@ -1,0 +1,6 @@
+Change Component Designator: OldDesignator=D? NewDesignator=D2
+Change Component Designator: OldDesignator=R? NewDesignator=R1
+Change Net Name : Old Net Name=NetD?_1 New Net Name=NetD2_1
+Added Room: Name=borneras
+Added Room: Name=esquematico
+Added Room: Name=source

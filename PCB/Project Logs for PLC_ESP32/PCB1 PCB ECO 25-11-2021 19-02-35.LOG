@@ -1,0 +1,6 @@
+Added Component: Designator=U1(ESP32)
+Added Pin To Net: NetName=+3.3V Pin=U1-1
+Added Pin To Net: NetName=VCC Pin=U1-19
+Added Pin To Net: NetName=GND Pin=U1-38
+Added Member To Class: ClassName=esquematico Member=Component U1 ESP32-38 pines
+Added Room: Name=esquematico

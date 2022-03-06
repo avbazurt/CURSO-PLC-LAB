@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=A33 Pin=ADC-1
+Removed Pin From Net: NetName=A32 Pin=ADC-2
+Removed Pin From Net: NetName=A35 Pin=ADC-3
+Removed Pin From Net: NetName=A39 Pin=ADC-5
+Removed Pin From Net: NetName=A36 Pin=ADC-6
+Removed Member From Class: ClassName=N000-2_[32..39] Member=A37

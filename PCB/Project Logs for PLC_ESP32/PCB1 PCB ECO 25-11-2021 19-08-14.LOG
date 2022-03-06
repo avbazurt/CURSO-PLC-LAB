@@ -1,0 +1,6 @@
+Removed Pin From Net: NetName=VCC_RS485 Pin=RS485-1
+Removed Pin From Net: NetName=B Pin=RS485-2
+Removed Pin From Net: NetName=A Pin=RS485-3
+Removed Pin From Net: NetName=GND Pin=RS485-4
+Removed Member From Class: ClassName=esquematico Member=RS485
+Added Room: Name=esquematico

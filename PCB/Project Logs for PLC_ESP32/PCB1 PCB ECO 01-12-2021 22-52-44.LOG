@@ -1,0 +1,27 @@
+Removed Pin From Net: NetName=A36 Pin=ADC-1
+Removed Pin From Net: NetName=A39 Pin=ADC-2
+Removed Pin From Net: NetName=A35 Pin=ADC-4
+Removed Pin From Net: NetName=A33 Pin=ADC-6
+Removed Pin From Net: NetName=A36 Pin=U1-3
+Removed Pin From Net: NetName=A39 Pin=U1-4
+Removed Pin From Net: NetName=A35 Pin=U1-6
+Removed Pin From Net: NetName=A33 Pin=U1-8
+Removed Pin From Net: NetName=IO15 Pin=U1-23
+Removed Pin From Net: NetName=IO2 Pin=U1-24
+Removed Pin From Net: NetName=IO4 Pin=U1-26
+Removed Pin From Net: NetName=IO16 Pin=U1-27
+Removed Pin From Net: NetName=IO17 Pin=U1-28
+Removed Pin From Net: NetName=IO5 Pin=U1-29
+Removed Pin From Net: NetName=IO18 Pin=U1-30
+Removed Pin From Net: NetName=IO19 Pin=U1-31
+Removed Pin From Net: NetName=IO21 Pin=U1-33
+Removed Pin From Net: NetName=IO22 Pin=U1-36
+Removed Pin From Net: NetName=IO23 Pin=U1-37
+Removed Member From Class: ClassName=borneras Member=ADC
+Added Component: Designator=ADC?(BORNERA_6)
+Added Pin To Net: NetName=A36 Pin=ADC?-1
+Added Pin To Net: NetName=A39 Pin=ADC?-2
+Added Pin To Net: NetName=A35 Pin=ADC?-4
+Added Pin To Net: NetName=A33 Pin=ADC?-6
+Change Net Name : Old Net Name=A37 New Net Name=A34
+Added Member To Class: ClassName=borneras Member=Component ADC? BORNERA_6

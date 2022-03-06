@@ -1,0 +1,24 @@
+Removed Pin From Net: NetName=IO4 Pin=I/O-7
+Removed Pin From Net: NetName=IO2 Pin=I/O-8
+Removed Pin From Net: NetName=IO15 Pin=I/O-9
+Removed Pin From Net: NetName=RE Pin=U1-12
+Removed Pin From Net: NetName=RO Pin=U1-15
+Removed Pin From Net: NetName=DI Pin=U1-27
+Removed Pin From Net: NetName=DE Pin=U1-28
+Added Pin To Net: NetName=IO4 Pin=I/O-9
+Added Pin To Net: NetName=IO2 Pin=I/O-10
+Added Pin To Net: NetName=IO15 Pin=I/O-11
+Added Pin To Net: NetName=RO Pin=U1-9
+Added Pin To Net: NetName=RE Pin=U1-10
+Added Pin To Net: NetName=DE Pin=U1-11
+Added Pin To Net: NetName=DI Pin=U1-12
+Added Pin To Net: NetName=IO13 Pin=I/O-12
+Added Pin To Net: NetName=IO13 Pin=U1-15
+Added Net: Name=IO13
+Added Pin To Net: NetName=IO16 Pin=I/O-8
+Added Pin To Net: NetName=IO16 Pin=U1-27
+Added Net: Name=IO16
+Added Pin To Net: NetName=IO17 Pin=I/O-7
+Added Pin To Net: NetName=IO17 Pin=U1-28
+Added Net: Name=IO17
+Added Room: Name=esquematico

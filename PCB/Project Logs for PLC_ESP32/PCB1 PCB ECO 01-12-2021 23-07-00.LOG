@@ -1,0 +1,4 @@
+Change Component Designator: OldDesignator=ADC? NewDesignator=ADC
+Added Pin To Net: NetName=A33 Pin=U1-8
+Change Class Name : Old Net Name=N000-1_[0..24] New Net Name=N000-2_[0..24]
+Added Class: Name=N000-1_[32..39]

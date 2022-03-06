@@ -1,0 +1,5 @@
+Removed Pin From Net: NetName=IO4 Pin=U1-26
+Removed Pin From Net: NetName=IO17 Pin=U1-28
+Added Pin To Net: NetName=IO16 Pin=U1-27
+Change Class Name : Old Net Name=N000-1_[32..39] New Net Name=N000-2_[32..39]
+Change Class Name : Old Net Name=N000-2_[0..24] New Net Name=N000-1_[0..24]

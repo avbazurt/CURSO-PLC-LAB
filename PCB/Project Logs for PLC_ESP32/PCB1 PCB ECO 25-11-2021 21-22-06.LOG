@@ -1,0 +1,13 @@
+Added Pin To Net: NetName=ADC_2 Pin=U1-24
+Added Net: Name=ADC_2
+Added Pin To Net: NetName=ADC_4 Pin=U1-26
+Added Net: Name=ADC_4
+Added Pin To Net: NetName=ADC_32 Pin=U1-7
+Added Net: Name=ADC_32
+Added Pin To Net: NetName=ADC_33 Pin=U1-8
+Added Net: Name=ADC_33
+Added Pin To Net: NetName=ADC_34 Pin=U1-5
+Added Net: Name=ADC_34
+Added Pin To Net: NetName=ADC_35 Pin=U1-6
+Added Net: Name=ADC_35
+Added Room: Name=esquematico
