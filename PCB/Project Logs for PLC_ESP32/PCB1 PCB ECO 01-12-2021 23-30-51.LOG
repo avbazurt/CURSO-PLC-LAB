@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=VCC_RS485 Pin=U2-5
-Added Pin To Net: NetName=+3.3V Pin=U2-5
-Added Room: Name=borneras
-Added Room: Name=esquematico
-Added Room: Name=source

@@ -1,9 +1,0 @@
-Added Pin To Net: NetName=A34 Pin=ADC-3
-Added Pin To Net: NetName=A32 Pin=ADC-5
-Added Pin To Net: NetName=A33 Pin=ADC-6
-Added Pin To Net: NetName=A36 Pin=U1-3
-Added Pin To Net: NetName=A39 Pin=U1-4
-Added Pin To Net: NetName=A35 Pin=U1-6
-Added Room: Name=borneras
-Added Room: Name=esquematico
-Added Room: Name=source

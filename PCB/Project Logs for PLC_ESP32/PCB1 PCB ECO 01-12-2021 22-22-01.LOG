@@ -1,6 +1,0 @@
-Added Pin To Net: NetName=A36 Pin=U1-3
-Added Pin To Net: NetName=A39 Pin=U1-4
-Added Pin To Net: NetName=A35 Pin=U1-6
-Added Pin To Net: NetName=A32 Pin=U1-7
-Added Pin To Net: NetName=A33 Pin=U1-8
-Change Class Name : Old Net Name=N000-2_[32..39] New Net Name=N000-2_[0..39]
