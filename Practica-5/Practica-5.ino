@@ -1,15 +1,26 @@
 /*
   Autor: Vidal Bazurto (avbazurt@espol.edu.ec)
-  GitHub: https://github.com/avbazurt/ESP32-PLC
-
-  PZEM-014/016 AC Energy Meter
+  GitHub: https://github.com/avbazurt/CURSO-PLC-LAB
+  Practica #5: PZEM-014/016 AC Energy Meter
 */
 
 //Librerias necesarias
 #include <ModbusMaster.h>
-#include "HAL_Config.h"
 
-ModbusMaster mbus_sensor;
+/*
+ Pines Dedicados modulo PLC-LAB
+*/
+#define RS485_SERIAL      Serial2
+
+#define MAX485_DE         GPIO_NUM_27          // Define DE Pin to Arduino pin. Connect DE Pin of Max485 converter module
+#define MAX485_RE         GPIO_NUM_26          // Define RE Pin to Arduino pin. Connect RE Pin of Max485 converter module
+
+#define RS485_SERIAL_RX   GPIO_NUM_25
+#define RS485_SERIAL_TX   GPIO_NUM_14
+
+#define RK520_MODBUS_ADDR 0x01
+#define RK520_MODBUS_BAUD 9600
+
 
 //Estructura datos Electricos Sensor
 struct PZEM {
@@ -23,6 +34,9 @@ struct PZEM {
 
 //Definimos la estructura
 PZEM Sensor;
+
+//Clase Modbus necesaria
+ModbusMaster mbus_sensor;
 
 void setup()
 {
@@ -45,12 +59,12 @@ void setup()
   //Agregmos los callback para pre y pos Transmision
   mbus_sensor.preTransmission(RS485_switch2TX);
   mbus_sensor.postTransmission(RS485_switch2RX);
-
 }
 
 void loop()
 {
   uint8_t res;
+  
   // La trama MODBUS mostrada en el folleto se traduce en esta petición de
   // biblioteca:
   res = mbus_sensor.readInputRegisters(0x0000, 9);
